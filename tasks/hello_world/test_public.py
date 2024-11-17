@@ -2,7 +2,6 @@ import pytest
 
 from .hello_world import get_hello_world
 
-
 class Case:
     def __init__(self, name: str, expected: str):
         self._name = name
